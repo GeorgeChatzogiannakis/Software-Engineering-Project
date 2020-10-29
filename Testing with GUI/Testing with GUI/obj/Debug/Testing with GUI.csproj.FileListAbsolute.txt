@@ -1,0 +1,26 @@
+H:\My Documents\Development\Testing with GUI\Testing with GUI\bin\Debug\Testing with GUI.exe.config
+H:\My Documents\Development\Testing with GUI\Testing with GUI\bin\Debug\Testing with GUI.exe
+H:\My Documents\Development\Testing with GUI\Testing with GUI\bin\Debug\Testing with GUI.pdb
+H:\My Documents\Development\Testing with GUI\Testing with GUI\obj\Debug\Testing with GUI.csprojAssemblyReference.cache
+H:\My Documents\Development\Testing with GUI\Testing with GUI\obj\Debug\Testing_with_GUI.Form1.resources
+H:\My Documents\Development\Testing with GUI\Testing with GUI\obj\Debug\Testing_with_GUI.Properties.Resources.resources
+H:\My Documents\Development\Testing with GUI\Testing with GUI\obj\Debug\Testing with GUI.csproj.GenerateResource.cache
+H:\My Documents\Development\Testing with GUI\Testing with GUI\obj\Debug\Testing with GUI.csproj.CoreCompileInputs.cache
+H:\My Documents\Development\Testing with GUI\Testing with GUI\obj\Debug\Testing with GUI.exe
+H:\My Documents\Development\Testing with GUI\Testing with GUI\obj\Debug\Testing with GUI.pdb
+D:\Documents\University\Year 2\Software Engineering\Testing with GUI\Testing with GUI\bin\Debug\Testing with GUI.exe.config
+D:\Documents\University\Year 2\Software Engineering\Testing with GUI\Testing with GUI\bin\Debug\Testing with GUI.exe
+D:\Documents\University\Year 2\Software Engineering\Testing with GUI\Testing with GUI\bin\Debug\Testing with GUI.pdb
+D:\Documents\University\Year 2\Software Engineering\Testing with GUI\Testing with GUI\obj\Debug\Testing with GUI.csprojAssemblyReference.cache
+D:\Documents\University\Year 2\Software Engineering\Testing with GUI\Testing with GUI\obj\Debug\Testing_with_GUI.Form1.resources
+D:\Documents\University\Year 2\Software Engineering\Testing with GUI\Testing with GUI\obj\Debug\Testing_with_GUI.Properties.Resources.resources
+D:\Documents\University\Year 2\Software Engineering\Testing with GUI\Testing with GUI\obj\Debug\Testing with GUI.csproj.GenerateResource.cache
+D:\Documents\University\Year 2\Software Engineering\Testing with GUI\Testing with GUI\obj\Debug\Testing with GUI.csproj.CoreCompileInputs.cache
+D:\Documents\University\Year 2\Software Engineering\Testing with GUI\Testing with GUI\obj\Debug\Testing with GUI.exe
+D:\Documents\University\Year 2\Software Engineering\Testing with GUI\Testing with GUI\obj\Debug\Testing with GUI.pdb
+D:\Documents\University\Year 2\Software Engineering\Testing with GUI\Testing with GUI\bin\Debug\Database.mdf
+D:\Documents\University\Year 2\Software Engineering\Testing with GUI\Testing with GUI\bin\Debug\Database_log.ldf
+D:\Documents\University\Year 2\Software Engineering\Testing with GUI\Testing with GUI\obj\Debug\Testing_with_GUI.CreateAccount.resources
+H:\My Documents\Development\Testing with GUI\Testing with GUI\bin\Debug\Database.mdf
+H:\My Documents\Development\Testing with GUI\Testing with GUI\bin\Debug\Database_log.ldf
+H:\My Documents\Development\Testing with GUI\Testing with GUI\obj\Debug\Testing_with_GUI.CreateAccount.resources
