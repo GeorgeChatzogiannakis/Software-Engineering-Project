@@ -32,10 +32,10 @@
             this.submitButton = new System.Windows.Forms.Button();
             this.logoutButton = new System.Windows.Forms.Button();
             this.optionLabel = new System.Windows.Forms.Label();
-            this.createCheckBox = new System.Windows.Forms.CheckBox();
-            this.editCheckBox = new System.Windows.Forms.CheckBox();
-            this.deteleCheckBox = new System.Windows.Forms.CheckBox();
-            this.sendCheckBox = new System.Windows.Forms.CheckBox();
+            this.createButton = new System.Windows.Forms.RadioButton();
+            this.editButton = new System.Windows.Forms.RadioButton();
+            this.deleteButton = new System.Windows.Forms.RadioButton();
+            this.sendButton = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             // 
             // welcomeLabel
@@ -81,53 +81,57 @@
             this.optionLabel.TabIndex = 3;
             this.optionLabel.Text = "Please make a selection:";
             // 
-            // createCheckBox
+            // createButton
             // 
-            this.createCheckBox.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.createCheckBox.AutoSize = true;
-            this.createCheckBox.Location = new System.Drawing.Point(327, 153);
-            this.createCheckBox.Name = "createCheckBox";
-            this.createCheckBox.Size = new System.Drawing.Size(135, 21);
-            this.createCheckBox.TabIndex = 4;
-            this.createCheckBox.Text = "Create Template";
-            this.createCheckBox.UseVisualStyleBackColor = true;
-            this.createCheckBox.CheckedChanged += new System.EventHandler(this.createCheckBox_CheckedChanged);
+            this.createButton.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.createButton.AutoSize = true;
+            this.createButton.Location = new System.Drawing.Point(326, 165);
+            this.createButton.Name = "createButton";
+            this.createButton.Size = new System.Drawing.Size(134, 21);
+            this.createButton.TabIndex = 8;
+            this.createButton.TabStop = true;
+            this.createButton.Text = "Create Template";
+            this.createButton.UseVisualStyleBackColor = true;
+            this.createButton.CheckedChanged += new System.EventHandler(this.createButton_CheckedChanged);
             // 
-            // editCheckBox
+            // editButton
             // 
-            this.editCheckBox.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.editCheckBox.AutoSize = true;
-            this.editCheckBox.Location = new System.Drawing.Point(327, 203);
-            this.editCheckBox.Name = "editCheckBox";
-            this.editCheckBox.Size = new System.Drawing.Size(117, 21);
-            this.editCheckBox.TabIndex = 5;
-            this.editCheckBox.Text = "Edit Template";
-            this.editCheckBox.UseVisualStyleBackColor = true;
-            this.editCheckBox.CheckedChanged += new System.EventHandler(this.editCheckBox_CheckedChanged);
+            this.editButton.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.editButton.AutoSize = true;
+            this.editButton.Location = new System.Drawing.Point(327, 212);
+            this.editButton.Name = "editButton";
+            this.editButton.Size = new System.Drawing.Size(116, 21);
+            this.editButton.TabIndex = 9;
+            this.editButton.TabStop = true;
+            this.editButton.Text = "Edit Template";
+            this.editButton.UseVisualStyleBackColor = true;
+            this.editButton.CheckedChanged += new System.EventHandler(this.editButton_CheckedChanged);
             // 
-            // deteleCheckBox
+            // deleteButton
             // 
-            this.deteleCheckBox.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.deteleCheckBox.AutoSize = true;
-            this.deteleCheckBox.Location = new System.Drawing.Point(327, 252);
-            this.deteleCheckBox.Name = "deteleCheckBox";
-            this.deteleCheckBox.Size = new System.Drawing.Size(134, 21);
-            this.deteleCheckBox.TabIndex = 6;
-            this.deteleCheckBox.Text = "Delete Template";
-            this.deteleCheckBox.UseVisualStyleBackColor = true;
-            this.deteleCheckBox.CheckedChanged += new System.EventHandler(this.deteleCheckBox_CheckedChanged);
+            this.deleteButton.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.deleteButton.AutoSize = true;
+            this.deleteButton.Location = new System.Drawing.Point(327, 263);
+            this.deleteButton.Name = "deleteButton";
+            this.deleteButton.Size = new System.Drawing.Size(133, 21);
+            this.deleteButton.TabIndex = 10;
+            this.deleteButton.TabStop = true;
+            this.deleteButton.Text = "Delete Template";
+            this.deleteButton.UseVisualStyleBackColor = true;
+            this.deleteButton.CheckedChanged += new System.EventHandler(this.deleteButton_CheckedChanged);
             // 
-            // sendCheckBox
+            // sendButton
             // 
-            this.sendCheckBox.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.sendCheckBox.AutoSize = true;
-            this.sendCheckBox.Location = new System.Drawing.Point(327, 298);
-            this.sendCheckBox.Name = "sendCheckBox";
-            this.sendCheckBox.Size = new System.Drawing.Size(129, 21);
-            this.sendCheckBox.TabIndex = 7;
-            this.sendCheckBox.Text = "Send Feedback";
-            this.sendCheckBox.UseVisualStyleBackColor = true;
-            this.sendCheckBox.CheckedChanged += new System.EventHandler(this.sendCheckBox_CheckedChanged);
+            this.sendButton.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.sendButton.AutoSize = true;
+            this.sendButton.Location = new System.Drawing.Point(327, 311);
+            this.sendButton.Name = "sendButton";
+            this.sendButton.Size = new System.Drawing.Size(128, 21);
+            this.sendButton.TabIndex = 11;
+            this.sendButton.TabStop = true;
+            this.sendButton.Text = "Send Feedback";
+            this.sendButton.UseVisualStyleBackColor = true;
+            this.sendButton.CheckedChanged += new System.EventHandler(this.sendButton_CheckedChanged);
             // 
             // Form2
             // 
@@ -136,10 +140,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.logoutButton;
             this.ClientSize = new System.Drawing.Size(1067, 554);
-            this.Controls.Add(this.sendCheckBox);
-            this.Controls.Add(this.deteleCheckBox);
-            this.Controls.Add(this.editCheckBox);
-            this.Controls.Add(this.createCheckBox);
+            this.Controls.Add(this.sendButton);
+            this.Controls.Add(this.deleteButton);
+            this.Controls.Add(this.editButton);
+            this.Controls.Add(this.createButton);
             this.Controls.Add(this.optionLabel);
             this.Controls.Add(this.logoutButton);
             this.Controls.Add(this.submitButton);
@@ -159,9 +163,9 @@
         private System.Windows.Forms.Button submitButton;
         private System.Windows.Forms.Button logoutButton;
         private System.Windows.Forms.Label optionLabel;
-        private System.Windows.Forms.CheckBox createCheckBox;
-        private System.Windows.Forms.CheckBox editCheckBox;
-        private System.Windows.Forms.CheckBox deteleCheckBox;
-        private System.Windows.Forms.CheckBox sendCheckBox;
+        private System.Windows.Forms.RadioButton createButton;
+        private System.Windows.Forms.RadioButton editButton;
+        private System.Windows.Forms.RadioButton deleteButton;
+        private System.Windows.Forms.RadioButton sendButton;
     }
 }

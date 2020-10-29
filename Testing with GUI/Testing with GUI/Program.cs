@@ -19,6 +19,7 @@ namespace Testing_with_GUI
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new CreateAccount());
+            //Application.Run(new Form2());//just for testing
             
         }
         /// <summary>

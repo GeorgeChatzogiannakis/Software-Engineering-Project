@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics.Eventing.Reader;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -23,39 +24,55 @@ namespace Testing_with_GUI
 
         }
 
-        private void editCheckBox_CheckedChanged(object sender, EventArgs e)
-        {
-            editCheckBox.Checked = submitButton.Enabled;
-            //go to edit page//
-        }
-
-        private void createCheckBox_CheckedChanged(object sender, EventArgs e)
-        {
-            createCheckBox.Checked = submitButton.Enabled;
-            //go to create template page//
-        }
-
-        private void deteleCheckBox_CheckedChanged(object sender, EventArgs e)
-        {
-            deteleCheckBox.Checked = submitButton.Enabled;
-            //go to templates page//
-        }
-
-        private void sendCheckBox_CheckedChanged(object sender, EventArgs e)
-        {
-            sendCheckBox.Checked = submitButton.Enabled;
-            //for admin page only//
-            //propt for confirmation, then sends the database//
-        }
-
         private void submitButton_Click(object sender, EventArgs e)
         {
-            //go to next forms//
+            if (createButton.Checked)
+            {
+                //go to create page
+            }
+
+            if (editButton.Checked)
+            {
+                //go to list of templates
+            }
+
+            if (deleteButton.Checked)
+            {
+                //go to list of templates (shouldn't it be the same thing with the edit though?)
+            }
+
+            if (sendButton.Checked)
+            {
+                //send all templates
+            }
+            
         }
+        
+        
 
         private void logoutButton_Click(object sender, EventArgs e)
         {
             //back to login page//
+        }
+
+        private void createButton_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void editButton_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void deleteButton_CheckedChanged(object sender, EventArgs e)
+        {
+            //should integrate in edit
+        }
+
+        private void sendButton_CheckedChanged(object sender, EventArgs e)
+        {
+            //fro admin accounts only
         }
     }
 }
