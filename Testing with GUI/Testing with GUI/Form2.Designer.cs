@@ -42,7 +42,7 @@
             // 
             this.welcomeLabel.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.welcomeLabel.AutoSize = true;
-            this.welcomeLabel.Location = new System.Drawing.Point(347, 54);
+            this.welcomeLabel.Location = new System.Drawing.Point(466, 54);
             this.welcomeLabel.Name = "welcomeLabel";
             this.welcomeLabel.Size = new System.Drawing.Size(104, 17);
             this.welcomeLabel.TabIndex = 0;
@@ -51,7 +51,7 @@
             // submitButton
             // 
             this.submitButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.submitButton.Location = new System.Drawing.Point(702, 441);
+            this.submitButton.Location = new System.Drawing.Point(941, 503);
             this.submitButton.Name = "submitButton";
             this.submitButton.Size = new System.Drawing.Size(102, 33);
             this.submitButton.TabIndex = 1;
@@ -63,7 +63,7 @@
             // 
             this.logoutButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.logoutButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.logoutButton.Location = new System.Drawing.Point(28, 445);
+            this.logoutButton.Location = new System.Drawing.Point(28, 507);
             this.logoutButton.Name = "logoutButton";
             this.logoutButton.Size = new System.Drawing.Size(93, 28);
             this.logoutButton.TabIndex = 2;
@@ -75,7 +75,7 @@
             // 
             this.optionLabel.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.optionLabel.AutoSize = true;
-            this.optionLabel.Location = new System.Drawing.Point(316, 88);
+            this.optionLabel.Location = new System.Drawing.Point(435, 88);
             this.optionLabel.Name = "optionLabel";
             this.optionLabel.Size = new System.Drawing.Size(165, 17);
             this.optionLabel.TabIndex = 3;
@@ -85,7 +85,7 @@
             // 
             this.createCheckBox.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.createCheckBox.AutoSize = true;
-            this.createCheckBox.Location = new System.Drawing.Point(208, 153);
+            this.createCheckBox.Location = new System.Drawing.Point(327, 153);
             this.createCheckBox.Name = "createCheckBox";
             this.createCheckBox.Size = new System.Drawing.Size(135, 21);
             this.createCheckBox.TabIndex = 4;
@@ -97,7 +97,7 @@
             // 
             this.editCheckBox.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.editCheckBox.AutoSize = true;
-            this.editCheckBox.Location = new System.Drawing.Point(208, 203);
+            this.editCheckBox.Location = new System.Drawing.Point(327, 203);
             this.editCheckBox.Name = "editCheckBox";
             this.editCheckBox.Size = new System.Drawing.Size(117, 21);
             this.editCheckBox.TabIndex = 5;
@@ -109,7 +109,7 @@
             // 
             this.deteleCheckBox.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.deteleCheckBox.AutoSize = true;
-            this.deteleCheckBox.Location = new System.Drawing.Point(208, 252);
+            this.deteleCheckBox.Location = new System.Drawing.Point(327, 252);
             this.deteleCheckBox.Name = "deteleCheckBox";
             this.deteleCheckBox.Size = new System.Drawing.Size(134, 21);
             this.deteleCheckBox.TabIndex = 6;
@@ -121,7 +121,7 @@
             // 
             this.sendCheckBox.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.sendCheckBox.AutoSize = true;
-            this.sendCheckBox.Location = new System.Drawing.Point(208, 298);
+            this.sendCheckBox.Location = new System.Drawing.Point(327, 298);
             this.sendCheckBox.Name = "sendCheckBox";
             this.sendCheckBox.Size = new System.Drawing.Size(129, 21);
             this.sendCheckBox.TabIndex = 7;
@@ -135,7 +135,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.logoutButton;
-            this.ClientSize = new System.Drawing.Size(828, 492);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.sendCheckBox);
             this.Controls.Add(this.deteleCheckBox);
             this.Controls.Add(this.editCheckBox);
