@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Testing_with_GUI
 {
-    public partial class log_in : Form
+    public partial class Form1 : Form
     {
         private static string user;
 
@@ -31,7 +31,7 @@ namespace Testing_with_GUI
             }
         }
 
-        public log_in()
+        public Form1()
         {
             InitializeComponent();
         }
@@ -69,6 +69,7 @@ namespace Testing_with_GUI
         private void loginButton_Click(object sender, EventArgs e)
         {
             Program.checkUserLogin();
+            //to test
         }
     }
 }
