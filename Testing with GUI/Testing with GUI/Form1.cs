@@ -69,6 +69,7 @@ namespace Testing_with_GUI
         private void loginButton_Click(object sender, EventArgs e)
         {
             Program.checkUserLogin();
+            //to test
         }
     }
 }
