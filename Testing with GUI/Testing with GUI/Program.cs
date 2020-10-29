@@ -19,7 +19,8 @@ namespace Testing_with_GUI
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new CreateAccount());
-            
+            //Application.Run(new option());// i have to figure out where it goes
+
         }
         /// <summary>
         /// Gets data out of the two forms "username" and "password" from the login page, check them with the database and logs the user in or tells them 
@@ -35,9 +36,9 @@ namespace Testing_with_GUI
             //goes with that username and compares it to the password that the user entered, if correct send the user to the options page
             foreach (DataRow dr in dt.Rows)
             {
-                if (dr["username"].ToString() == Form1.getUsername)
+                if (dr["username"].ToString() == log_in.getUsername)
                 {
-                    if (dr["password"].ToString() == Form1.getPassword)
+                    if (dr["password"].ToString() == log_in.getPassword)
                     {
                         EndProgram();
                         break;
