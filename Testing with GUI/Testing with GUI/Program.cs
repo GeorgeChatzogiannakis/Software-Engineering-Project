@@ -19,7 +19,6 @@ namespace Testing_with_GUI
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new CreateAccount());
-            //Application.Run(new option());// i have to figure out where it goes
 
         }
         /// <summary>

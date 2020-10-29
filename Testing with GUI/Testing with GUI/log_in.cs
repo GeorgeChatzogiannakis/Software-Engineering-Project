@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Testing_with_GUI
 {
-    public partial class Form1 : Form
+    public partial class log_in : Form
     {
         private static string user;
 
@@ -31,7 +31,7 @@ namespace Testing_with_GUI
             }
         }
 
-        public Form1()
+        public log_in()
         {
             InitializeComponent();
         }
@@ -69,7 +69,27 @@ namespace Testing_with_GUI
         private void loginButton_Click(object sender, EventArgs e)
         {
             Program.checkUserLogin();
-            //to test
         }
+    }
+}
+
+namespace Testing_with_GUI
+{
+    public partial class Form1 : Form
+    {
+        private static string user;
+
+        public static string getUsername
+        {
+            get { return user; }
+        }
+
+        private static string pass;
+
+        public static string getPassword
+        {
+            get { return pass; }
+        }
+
     }
 }
