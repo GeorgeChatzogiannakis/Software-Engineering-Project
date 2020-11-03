@@ -30,11 +30,11 @@ F:\Development\2nd year\SE\Software-Engineering\Software-Engineering-Project\Tes
 F:\Development\2nd year\SE\Software-Engineering\Software-Engineering-Project\Testing with GUI\Testing with GUI\bin\Debug\Testing with GUI.exe
 F:\Development\2nd year\SE\Software-Engineering\Software-Engineering-Project\Testing with GUI\Testing with GUI\bin\Debug\Testing with GUI.pdb
 F:\Development\2nd year\SE\Software-Engineering\Software-Engineering-Project\Testing with GUI\Testing with GUI\obj\Debug\Testing with GUI.csprojAssemblyReference.cache
-F:\Development\2nd year\SE\Software-Engineering\Software-Engineering-Project\Testing with GUI\Testing with GUI\obj\Debug\Testing_with_GUI.CreateAccount.resources
-F:\Development\2nd year\SE\Software-Engineering\Software-Engineering-Project\Testing with GUI\Testing with GUI\obj\Debug\Testing_with_GUI.Form1.resources
 F:\Development\2nd year\SE\Software-Engineering\Software-Engineering-Project\Testing with GUI\Testing with GUI\obj\Debug\Testing_with_GUI.Properties.Resources.resources
 F:\Development\2nd year\SE\Software-Engineering\Software-Engineering-Project\Testing with GUI\Testing with GUI\obj\Debug\Testing with GUI.csproj.GenerateResource.cache
 F:\Development\2nd year\SE\Software-Engineering\Software-Engineering-Project\Testing with GUI\Testing with GUI\obj\Debug\Testing with GUI.csproj.CoreCompileInputs.cache
 F:\Development\2nd year\SE\Software-Engineering\Software-Engineering-Project\Testing with GUI\Testing with GUI\obj\Debug\Testing with GUI.exe
 F:\Development\2nd year\SE\Software-Engineering\Software-Engineering-Project\Testing with GUI\Testing with GUI\obj\Debug\Testing with GUI.pdb
-F:\Development\2nd year\SE\Software-Engineering\Software-Engineering-Project\Testing with GUI\Testing with GUI\obj\Debug\Testing_with_GUI.Form2.resources
+F:\Development\2nd year\SE\Software-Engineering\Software-Engineering-Project\Testing with GUI\Testing with GUI\obj\Debug\Testing_with_GUI.LogInForm.resources
+F:\Development\2nd year\SE\Software-Engineering\Software-Engineering-Project\Testing with GUI\Testing with GUI\obj\Debug\Testing_with_GUI.MenuForm.resources
+F:\Development\2nd year\SE\Software-Engineering\Software-Engineering-Project\Testing with GUI\Testing with GUI\obj\Debug\Testing_with_GUI.CreateAccountForm.resources
