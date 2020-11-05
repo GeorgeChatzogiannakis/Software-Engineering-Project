@@ -161,6 +161,7 @@
             this.Controls.Add(this.create);
             this.Name = "CreateAccount";
             this.Text = "CreateAccount";
+            this.Load += new System.EventHandler(this.CreateAccount_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

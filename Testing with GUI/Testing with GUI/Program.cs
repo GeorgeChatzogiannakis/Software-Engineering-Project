@@ -250,7 +250,6 @@ namespace Testing_with_GUI
             {
                 if(dr["admin"].ToString() == "Y")
                 {
-                    MessageBox.Show("Is admin");
                     return true;
                 }
             }

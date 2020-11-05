@@ -51,7 +51,7 @@ namespace Testing_with_GUI
             bool successful = Program.createAccount(user, pass, conPass, fullName, admin);
             if (successful)
             {
-                var optionPg = new Login(); //create an instance of option page
+                var optionPg = new OptionPage(); //create an instance of option page
                 Hide();             //hides the current form
                 optionPg.Show();       //show option page
                 Close();            //closes the current form
@@ -92,6 +92,11 @@ namespace Testing_with_GUI
             {
                 admin = "N";
             }
+        }
+
+        private void CreateAccount_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

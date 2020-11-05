@@ -50,7 +50,7 @@ namespace Testing_with_GUI
             {
                 // Creating and setting the properties of Button 
                 Button createAccountButton = new Button();
-                createAccountButton.Location = new Point(325, 380);
+                createAccountButton.Location = new Point(331, 297);
                 createAccountButton.Text = "Create Account";
                 createAccountButton.Size = new Size(128, 54);
                 createAccountButton.Padding = new Padding(4);
