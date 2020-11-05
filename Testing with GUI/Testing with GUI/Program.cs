@@ -23,6 +23,8 @@ namespace Testing_with_GUI
 
         }
 
+        private static int userID = -1;
+
         /// <summary>
         /// Takes two passwords (one of them hashed) and compares them to one another, return true if they are the same otherwise false
         /// </summary>
@@ -89,6 +91,7 @@ namespace Testing_with_GUI
                 {
                     if (compareHashedPassword(password, dr["password"].ToString()))
                     {
+                        userID = Int32.Parse(dr["userID"].ToString());
                         return true;
                     }
                 }
@@ -238,11 +241,35 @@ namespace Testing_with_GUI
             
         }
 
+        public static bool isAdmin()
+        {
+            //Retrives the users table from the database
+            DataTable dt = DBConnection.getInstanceOfDBConnection().getDataTable("SELECT * FROM users WHERE userID = '"+userID+"'");
+
+
+            //Iterates though the table to see if any of the user names corresponds with a in the table, if one does then it take the password that 
+            //goes with that username and compares it to the password that the user entered, if correct send the user to the options page
+            foreach (DataRow dr in dt.Rows)
+            {
+                if(dr["admin"].ToString() == "Y")
+                {
+                    MessageBox.Show("Is admin");
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        public static void logout()
+        {
+            userID = -1;
+        }
+
 
         /// <summary>
         /// Closes the program
         /// </summary>
-        public static void EndProgram()
+        public static void endProgram()
         {
             Form1.Form1Instance.Close();
         }
