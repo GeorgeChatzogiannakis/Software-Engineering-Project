@@ -14,34 +14,16 @@ namespace Testing_with_GUI
     public partial class CreateAccount : Form
     {
 
-        private static string user;
+        private static string user = "";
 
-        public static string getUsername
-        {
-            get
-            {
-                return user;
-            }
-        }
-        private static string pass;
+        private static string pass = "";
 
-        public static string getPassword
-        {
-            get
-            {
-                return pass;
-            }
-        }
+        private static string fullName = "";
 
-        private static bool admin;
+        private static string conPass = "";
 
-        public static bool getAdmin
-        {
-            get
-            {
-                return admin;
-            }
-        }
+        private static string admin = "N";
+
 
         public CreateAccount()
         {
@@ -53,19 +35,48 @@ namespace Testing_with_GUI
             user = username.Text;
         }
 
-        private void password_TextChanged(object sender, EventArgs e)
+        private void create_Click(object sender, EventArgs e)
+        {
+            bool successful = Program.createAccount(user, pass, conPass, fullName, admin);
+            if (successful)
+            {
+                var optionPg = new Login(); //create an instance of option page
+                Hide();             //hides the current form
+                optionPg.Show();       //show option page
+                Close();            //closes the current form
+            }
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void name_TextChanged_1(object sender, EventArgs e)
+        {
+            fullName = name.Text;
+        }
+
+        private void password_TextChanged_1(object sender, EventArgs e)
         {
             pass = password.Text;
         }
 
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        private void conPassword_TextChanged(object sender, EventArgs e)
         {
-            admin = true; 
+            conPass = conPassword.Text;
         }
 
-        private void create_Click(object sender, EventArgs e)
+        private void isAdmin_CheckedChanged(object sender, EventArgs e)
         {
-            Program.createAccount();
+            if (isAdmin.CheckState == CheckState.Checked)
+            {
+                admin = "Y";
+            }
+            else if (isAdmin.CheckState == CheckState.Unchecked)
+            {
+                admin = "N";
+            }
         }
     }
 }

@@ -77,5 +77,31 @@ namespace Testing_with_GUI
 
             return dataTable;
         }
+
+        public void uploadData(string sqlQuery)
+        {
+            using(SqlConnection connToDB = new SqlConnection(connStr))
+            {
+                //open connection 
+                connToDB.Open();
+
+                SqlCommand sqlCommand = new SqlCommand(sqlQuery, connToDB);
+
+
+                //set the command properties
+                sqlCommand.CommandType = CommandType.Text;
+
+                //add the perameters to the sqlCommand
+                //sqlCommand.Parameters.Add(new SqlParameter("name", name));
+
+
+                //execute the command
+                sqlCommand.ExecuteNonQuery();
+
+                //close connection
+                connToDB.Close();
+            }
+
+        }
     }
 }

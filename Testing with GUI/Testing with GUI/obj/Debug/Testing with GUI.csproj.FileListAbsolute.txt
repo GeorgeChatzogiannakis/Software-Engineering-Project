@@ -18,23 +18,32 @@ D:\Documents\University\Year 2\Software Engineering\Testing with GUI\Testing wit
 D:\Documents\University\Year 2\Software Engineering\Testing with GUI\Testing with GUI\obj\Debug\Testing with GUI.csproj.CoreCompileInputs.cache
 D:\Documents\University\Year 2\Software Engineering\Testing with GUI\Testing with GUI\obj\Debug\Testing with GUI.exe
 D:\Documents\University\Year 2\Software Engineering\Testing with GUI\Testing with GUI\obj\Debug\Testing with GUI.pdb
-D:\Documents\University\Year 2\Software Engineering\Testing with GUI\Testing with GUI\bin\Debug\Database.mdf
-D:\Documents\University\Year 2\Software Engineering\Testing with GUI\Testing with GUI\bin\Debug\Database_log.ldf
 D:\Documents\University\Year 2\Software Engineering\Testing with GUI\Testing with GUI\obj\Debug\Testing_with_GUI.CreateAccount.resources
 H:\My Documents\Development\Testing with GUI\Testing with GUI\bin\Debug\Database.mdf
 H:\My Documents\Development\Testing with GUI\Testing with GUI\bin\Debug\Database_log.ldf
 H:\My Documents\Development\Testing with GUI\Testing with GUI\obj\Debug\Testing_with_GUI.CreateAccount.resources
-F:\Development\2nd year\SE\Software-Engineering\Testing with GUI\Testing with GUI\bin\Debug\Database.mdf
-F:\Development\2nd year\SE\Software-Engineering\Testing with GUI\Testing with GUI\bin\Debug\Database_log.ldf
-F:\Development\2nd year\SE\Software-Engineering\Testing with GUI\Testing with GUI\bin\Debug\Testing with GUI.exe.config
-F:\Development\2nd year\SE\Software-Engineering\Testing with GUI\Testing with GUI\bin\Debug\Testing with GUI.exe
-F:\Development\2nd year\SE\Software-Engineering\Testing with GUI\Testing with GUI\bin\Debug\Testing with GUI.pdb
-F:\Development\2nd year\SE\Software-Engineering\Testing with GUI\Testing with GUI\obj\Debug\Testing with GUI.csprojAssemblyReference.cache
-F:\Development\2nd year\SE\Software-Engineering\Testing with GUI\Testing with GUI\obj\Debug\Testing_with_GUI.CreateAccount.resources
-F:\Development\2nd year\SE\Software-Engineering\Testing with GUI\Testing with GUI\obj\Debug\Testing_with_GUI.log_in.resources
-F:\Development\2nd year\SE\Software-Engineering\Testing with GUI\Testing with GUI\obj\Debug\Feedback.option.resources
-F:\Development\2nd year\SE\Software-Engineering\Testing with GUI\Testing with GUI\obj\Debug\Testing_with_GUI.Properties.Resources.resources
-F:\Development\2nd year\SE\Software-Engineering\Testing with GUI\Testing with GUI\obj\Debug\Testing with GUI.csproj.GenerateResource.cache
-F:\Development\2nd year\SE\Software-Engineering\Testing with GUI\Testing with GUI\obj\Debug\Testing with GUI.csproj.CoreCompileInputs.cache
-F:\Development\2nd year\SE\Software-Engineering\Testing with GUI\Testing with GUI\obj\Debug\Testing with GUI.exe
-F:\Development\2nd year\SE\Software-Engineering\Testing with GUI\Testing with GUI\obj\Debug\Testing with GUI.pdb
+D:\Documents\University\Year 2\Software Engineering\Testing with GUI\Testing with GUI\obj\Debug\Testing_with_GUI.Login.resources
+D:\Documents\University\Year 2\Software Engineering\Testing with GUI\Testing with GUI\obj\Debug\Testing_with_GUI.OptionPage.resources
+D:\Documents\University\Year 2\Software Engineering\Testing with GUI\Testing with GUI\bin\Debug\Database.mdf
+D:\Documents\University\Year 2\Software Engineering\Testing with GUI\Testing with GUI\bin\Debug\Database_log.ldf
+D:\Documents\University\Year 2\Software Engineering\Testing with GUI\Testing with GUI\obj\Debug\Testing_with_GUI.CreateTemplate.resources
+D:\Documents\University\Year 2\Software Engineering\Testing with GUI\Testing with GUI\obj\Debug\Testing_with_GUI.TemplateEditor.resources
+D:\Documents\University\Year 2\Software Engineering\Testing with GUI\Testing with GUI\obj\Debug\Testing_with_GUI.CreateSection.resources
+D:\GitHub\Software-Engineering-Project\Testing with GUI\Testing with GUI\bin\Debug\Database.mdf
+D:\GitHub\Software-Engineering-Project\Testing with GUI\Testing with GUI\bin\Debug\Database_log.ldf
+D:\GitHub\Software-Engineering-Project\Testing with GUI\Testing with GUI\bin\Debug\Testing with GUI.exe.config
+D:\GitHub\Software-Engineering-Project\Testing with GUI\Testing with GUI\bin\Debug\Testing with GUI.exe
+D:\GitHub\Software-Engineering-Project\Testing with GUI\Testing with GUI\bin\Debug\Testing with GUI.pdb
+D:\GitHub\Software-Engineering-Project\Testing with GUI\Testing with GUI\obj\Debug\Testing with GUI.csprojAssemblyReference.cache
+D:\GitHub\Software-Engineering-Project\Testing with GUI\Testing with GUI\obj\Debug\Testing_with_GUI.CreateAccount.resources
+D:\GitHub\Software-Engineering-Project\Testing with GUI\Testing with GUI\obj\Debug\Testing_with_GUI.CreateSection.resources
+D:\GitHub\Software-Engineering-Project\Testing with GUI\Testing with GUI\obj\Debug\Testing_with_GUI.CreateTemplate.resources
+D:\GitHub\Software-Engineering-Project\Testing with GUI\Testing with GUI\obj\Debug\Testing_with_GUI.Form1.resources
+D:\GitHub\Software-Engineering-Project\Testing with GUI\Testing with GUI\obj\Debug\Testing_with_GUI.Login.resources
+D:\GitHub\Software-Engineering-Project\Testing with GUI\Testing with GUI\obj\Debug\Testing_with_GUI.OptionPage.resources
+D:\GitHub\Software-Engineering-Project\Testing with GUI\Testing with GUI\obj\Debug\Testing_with_GUI.Properties.Resources.resources
+D:\GitHub\Software-Engineering-Project\Testing with GUI\Testing with GUI\obj\Debug\Testing_with_GUI.TemplateEditor.resources
+D:\GitHub\Software-Engineering-Project\Testing with GUI\Testing with GUI\obj\Debug\Testing with GUI.csproj.GenerateResource.cache
+D:\GitHub\Software-Engineering-Project\Testing with GUI\Testing with GUI\obj\Debug\Testing with GUI.csproj.CoreCompileInputs.cache
+D:\GitHub\Software-Engineering-Project\Testing with GUI\Testing with GUI\obj\Debug\Testing with GUI.exe
+D:\GitHub\Software-Engineering-Project\Testing with GUI\Testing with GUI\obj\Debug\Testing with GUI.pdb
