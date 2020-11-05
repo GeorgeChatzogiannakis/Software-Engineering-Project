@@ -10,65 +10,30 @@ using System.Windows.Forms;
 
 namespace Testing_with_GUI
 {
-    public partial class LogInForm : Form
+    public partial class Form1 : Form
     {
-        private static string user;
+        public static Form1 Form1Instance;
 
-        public static string GetUsername
+        public Form1()
         {
-            get
-            {
-                return user;
-            }
-        }
-        private static string pass;
+            //Everyone eveywhere in the app should know me as Form1.Form1Instance
+            Form1Instance = this;
 
-        public static string GetPassword
-        {
-            get
-            {
-                return pass;
-            }
-        }
+            //Make sure I am kept hidden
+            WindowState = FormWindowState.Minimized;
+            ShowInTaskbar = false;
+            Visible = false;
 
-        public LogInForm()
-        {
             InitializeComponent();
+
+            //Open a managed form - the one the user sees..
+            var login = new Login();
+            login.Show();
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
 
-        }
-
-        private void Label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Password_TextChanged(object sender, EventArgs e)
-        {
-            pass = passwordTextBox.Text;
-        }
-
-        private void Username_TextChanged(object sender, EventArgs e)
-        {
-            user = usernameTextBox.Text;
-        }
-
-        private void LoginButton_Click(object sender, EventArgs e)
-        {
-            Program.CheckUserLogin();
         }
     }
 }

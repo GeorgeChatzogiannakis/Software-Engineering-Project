@@ -26,19 +26,17 @@ namespace Testing_with_GUI
             connStr = Properties.Settings.Default.PersonalDBConnectionStr;
         }
 
-
-        //a static method that creates an unique object of the class itself
-        public static DBConnection GetInstanceOfDBConnection()
+        public static DBConnection getInstanceOfDBConnection()
         {
-            //create the object only if it doesn't exist
             if(_instance == null)
-                _instance = new DBConnection();
+            
+            _instance = new DBConnection();
             return _instance;
         }
 
         //Returns a datatable base on the aqlQuery used
 
-        public DataSet GetDataSet(string sqlQuery)
+        public DataSet getDataSet(string sqlQuery)
         {
             //creates an empty data set
             DataSet dataSet = new DataSet();
@@ -60,52 +58,50 @@ namespace Testing_with_GUI
             return dataSet;
         }
 
-        /**
-         * Method that saves data into the database
-         */
-
-        public void SaveToDB(string sqlQuery, string username, string password,bool admin)
-        {
-            using (SqlConnection connToDB = new SqlConnection(connStr))
-            {
-                //open connection
-                connToDB.Open();
-
-                SqlCommand sqlCommand = new SqlCommand(sqlQuery, connToDB);
-
-                //set the sqlCommand's properties
-                sqlCommand.CommandType = CommandType.Text;
-
-                //add the parameters to the sqlCommand
-                sqlCommand.Parameters.Add(new SqlParameter("Username", username));
-                sqlCommand.Parameters.Add(new SqlParameter("Password", password));
-                sqlCommand.Parameters.Add(new SqlParameter("Admin", admin));
-
-                //execute the command
-                sqlCommand.ExecuteNonQuery();
-
-            }
-        }
-
         /// <summary>
         /// Only user with sql statement that deals with one table
         /// </summary>
         /// <param name="sqlQuery"></param>
         /// <returns></returns>
-        public DataTable GetDataTable(string sqlQuery)
+        public DataTable getDataTable(string sqlQuery)
         {
 
             //creates an empty data set
             DataTable dataTable = new DataTable();
 
             //Calls the getDataSet methood
-            DataSet ds = GetInstanceOfDBConnection().GetDataSet(sqlQuery);
+            DataSet ds = getInstanceOfDBConnection().getDataSet(sqlQuery);
 
             //Converts the data set into the datatable
             dataTable = ds.Tables[0];
 
             return dataTable;
         }
-        
+
+        public void uploadData(string sqlQuery)
+        {
+            using(SqlConnection connToDB = new SqlConnection(connStr))
+            {
+                //open connection 
+                connToDB.Open();
+
+                SqlCommand sqlCommand = new SqlCommand(sqlQuery, connToDB);
+
+
+                //set the command properties
+                sqlCommand.CommandType = CommandType.Text;
+
+                //add the perameters to the sqlCommand
+                //sqlCommand.Parameters.Add(new SqlParameter("name", name));
+
+
+                //execute the command
+                sqlCommand.ExecuteNonQuery();
+
+                //close connection
+                connToDB.Close();
+            }
+
+        }
     }
 }
