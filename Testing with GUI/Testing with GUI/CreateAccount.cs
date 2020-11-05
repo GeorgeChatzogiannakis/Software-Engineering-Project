@@ -14,21 +14,32 @@ namespace Testing_with_GUI
     public partial class CreateAccount : Form
     {
 
-        private static string user = "";
+        private static string user;
 
-        private static string pass = "";
+        private static string pass;
 
-        private static string fullName = "";
+        private static string fullName;
 
-        private static string conPass = "";
+        private static string conPass;
 
-        private static string admin = "N";
+        private static string admin;
 
 
         public CreateAccount()
         {
             InitializeComponent();
-        }
+            //set the default values for the variables, this is done everytime the form is called
+            
+            user = "";
+
+            pass = "";
+
+            fullName = "";
+
+            conPass = "";
+
+            admin = "N";
+    }
 
         private void username_TextChanged(object sender, EventArgs e)
         {
@@ -74,6 +85,10 @@ namespace Testing_with_GUI
                 admin = "Y";
             }
             else if (isAdmin.CheckState == CheckState.Unchecked)
+            {
+                admin = "N";
+            }
+            else
             {
                 admin = "N";
             }

@@ -50,13 +50,12 @@ namespace Testing_with_GUI
             {
                 // Creating and setting the properties of Button 
                 Button createAccountButton = new Button();
-                createAccountButton.Location = new System.Drawing.Point(432, 467);
-                createAccountButton.Margin = new System.Windows.Forms.Padding(4);
-                createAccountButton.Name = "deleteTemplate";
-                createAccountButton.Size = new System.Drawing.Size(172, 65);
-                createAccountButton.TabIndex = 4;
-                createAccountButton.Text = "Delete Template";
-                createAccountButton.UseVisualStyleBackColor = true;
+                createAccountButton.Location = new Point(325, 380);
+                createAccountButton.Text = "Create Account";
+                createAccountButton.Size = new Size(128, 54);
+                createAccountButton.Padding = new Padding(4);
+                createAccountButton.TabIndex = 5;
+                createAccountButton.Font = new Font("Microsoft Sans Serif", 8);
                 createAccountButton.Click += new EventHandler(createAccount_click);
 
                 // Adding this button to form 

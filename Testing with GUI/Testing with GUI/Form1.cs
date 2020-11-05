@@ -27,7 +27,7 @@ namespace Testing_with_GUI
             InitializeComponent();
 
             //Open a managed form - the one the user sees..
-            var login = new Login();
+            var login = new CreateAccount();
             login.Show();
         }
 

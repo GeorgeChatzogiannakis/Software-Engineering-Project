@@ -246,9 +246,6 @@ namespace Testing_with_GUI
             //Retrives the users table from the database
             DataTable dt = DBConnection.getInstanceOfDBConnection().getDataTable("SELECT * FROM users WHERE userID = '"+userID+"'");
 
-
-            //Iterates though the table to see if any of the user names corresponds with a in the table, if one does then it take the password that 
-            //goes with that username and compares it to the password that the user entered, if correct send the user to the options page
             foreach (DataRow dr in dt.Rows)
             {
                 if(dr["admin"].ToString() == "Y")
