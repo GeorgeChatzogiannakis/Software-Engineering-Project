@@ -14,21 +14,32 @@ namespace Testing_with_GUI
     public partial class CreateAccount : Form
     {
 
-        private static string user = "";
+        private static string user;
 
-        private static string pass = "";
+        private static string pass;
 
-        private static string fullName = "";
+        private static string fullName;
 
-        private static string conPass = "";
+        private static string conPass;
 
-        private static string admin = "N";
+        private static string admin;
 
 
         public CreateAccount()
         {
             InitializeComponent();
-        }
+            //set the default values for the variables, this is done everytime the form is called
+            
+            user = "";
+
+            pass = "";
+
+            fullName = "";
+
+            conPass = "";
+
+            admin = "N";
+    }
 
         private void username_TextChanged(object sender, EventArgs e)
         {
@@ -40,7 +51,7 @@ namespace Testing_with_GUI
             bool successful = Program.createAccount(user, pass, conPass, fullName, admin);
             if (successful)
             {
-                var optionPg = new Login(); //create an instance of option page
+                var optionPg = new OptionPage(); //create an instance of option page
                 Hide();             //hides the current form
                 optionPg.Show();       //show option page
                 Close();            //closes the current form
@@ -77,6 +88,15 @@ namespace Testing_with_GUI
             {
                 admin = "N";
             }
+            else
+            {
+                admin = "N";
+            }
+        }
+
+        private void CreateAccount_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -15,6 +15,10 @@ namespace Testing_with_GUI
         public Login()
         {
             InitializeComponent();
+            //set the default values for the variables, this is done everytime the form is called
+            user = "";
+
+            pass = "";
         }
 
 
